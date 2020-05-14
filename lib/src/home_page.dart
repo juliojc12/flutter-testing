@@ -44,10 +44,10 @@ class _HomePageState extends State<HomePage>
         TabBar(
           controller: _tabController,
           indicatorColor: Colors.transparent,
-          labelColor: Colors.black,
+          labelColor: Colors.blueAccent,
           isScrollable: true,
           labelPadding: EdgeInsets.only(right: 30.0),
-          unselectedLabelColor: Colors.black26,
+          unselectedLabelColor: Colors.black45,
           tabs: [
             Tab(
               child: Text(
